@@ -1,0 +1,110 @@
+- INFO - Server 'Wilkes', serving on ('127.0.0.1', 18434)
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 38922)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - Parsing finished!!, for the Client port at: 38922
+- INFO - Information propagating to the server:==> ['Goloman'] at port:18430
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 38924)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 38924
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 38932)
+- INFO - Successful!, the information propated to server 'Goloman'
+- INFO - Information propagating to the server:==> ['Hands'] at port:18431
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 38932
+- INFO - Successful!, the information propated to server 'Hands'
+- INFO - Information propagating to the server:==> ['Holiday'] at port:18432
+- INFO - Successful!, the information propated to server 'Holiday'
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39000)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.edu 10 5
+- INFO - Given command is [WHATSAT] Message string
+- INFO - WHATSAT is valid
+- INFO - Creating Task to request to google with Details 10 +34.068930,-118.445127
+- INFO - Parsing finished!!, for the Client port at: 39000
+- INFO - Google API Connection made for client at port: 39000
+- INFO - Succefull Google API conneciton: 39000
+- INFO - Sending HTTP request to Google:
+- INFO - Reading HTTP request from Google:
+- INFO - Parsing HTTP respose:
+- INFO - Writing Google result to the Client port at: 39000
+- INFO - Closing connection for client port at: 39000
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39004)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.edu 10 20
+- INFO - Given command is [WHATSAT] Message string
+- INFO - WHATSAT is valid
+- INFO - Creating Task to request to google with Details 10 +34.068930,-118.445127
+- INFO - Parsing finished!!, for the Client port at: 39004
+- INFO - Google API Connection made for client at port: 39004
+- INFO - Succefull Google API conneciton: 39004
+- INFO - Sending HTTP request to Google:
+- INFO - Reading HTTP request from Google:
+- INFO - Parsing HTTP respose:
+- INFO - Writing Google result to the Client port at: 39004
+- INFO - Closing connection for client port at: 39004
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39008)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Given command is [WHATSAT] Message string
+- INFO - [server] WHATAT limit 21 exceeded:
+- INFO - Not permitted!!, Invalid command ? WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Closing connection for Client port at: 39008
+- INFO - Not permitted!!, Invalid command ? WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Closing connection for Client port at: 39008
+- INFO - Parsing finished!!, for the Client port at: 39008
+- INFO - Not permitted!!, Invalid command ? WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Closing connection for Client port at: 39008
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39010)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.ed 10 5
+- INFO - Given command is [WHATSAT] Message string
+- INFO - Parsing finished!!, for the Client port at: 39010
+- INFO - Not permitted!!, Invalid command ? WHATSAT kiwi.cs.ucla.ed 10 5
+- INFO - Closing connection for Client port at: 39010
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39014)
+- INFO - Message is Received! IAMAT kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [IAMAT] Message string
+- INFO - Valid AT message
+- INFO - Updating self and network
+- INFO - Server Answering the Client at port: 39014
+- INFO - Parsing finished!!, for the Client port at: 39014
+- INFO - Information propagating to the server:==> ['Goloman'] at port:18430
+- INFO - Successful!, the information propated to server 'Goloman'
+- INFO - Information propagating to the server:==> ['Hands'] at port:18431
+- INFO - Successful!, the information propated to server 'Hands'
+- INFO - Information propagating to the server:==> ['Holiday'] at port:18432
+- INFO - Successful!, the information propated to server 'Holiday'
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39026)
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39028)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 39028
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 39026
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39034)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 39034
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 39042)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.ed 10 5
+- INFO - Given command is [WHATSAT] Message string
+- INFO - WHATSAT is valid
+- INFO - Creating Task to request to google with Details 10 +34.068930,-118.445127
+- INFO - Parsing finished!!, for the Client port at: 39042
+- INFO - Google API Connection made for client at port: 39042
+- INFO - Succefull Google API conneciton: 39042
+- INFO - Sending HTTP request to Google:
+- INFO - Reading HTTP request from Google:
+- INFO - Parsing HTTP respose:
+- INFO - Writing Google result to the Client port at: 39042
+- INFO - Closing connection for client port at: 39042

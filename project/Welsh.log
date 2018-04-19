@@ -1,0 +1,37 @@
+- INFO - Server 'Welsh', serving on ('127.0.0.1', 18433)
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 56880)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - Parsing finished!!, for the Client port at: 56880
+- INFO - Information propagating to the server:==> ['Holiday'] at port:18432
+- INFO - Successful!, the information propated to server 'Holiday'
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 56916)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Given command is [WHATSAT] Message string
+- INFO - [server] WHATAT limit 21 exceeded:
+- INFO - Not permitted!!, Invalid command ? WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Closing connection for Client port at: 56916
+- INFO - Not permitted!!, Invalid command ? WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Closing connection for Client port at: 56916
+- INFO - Parsing finished!!, for the Client port at: 56916
+- INFO - Not permitted!!, Invalid command ? WHATSAT kiwi.cs.ucla.edu 10 21
+- INFO - Closing connection for Client port at: 56916
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 56918)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.edu 10 5
+- INFO - Given command is [WHATSAT] Message string
+- INFO - WHATSAT is valid
+- INFO - Creating Task to request to google with Details 10 +34.068930,-118.445127
+- INFO - Parsing finished!!, for the Client port at: 56918
+- INFO - Google API Connection made for client at port: 56918
+- INFO - Succefull Google API conneciton: 56918
+- INFO - Sending HTTP request to Google:
+- INFO - Reading HTTP request from Google:
+- INFO - Parsing HTTP respose:
+- INFO - Writing Google result to the Client port at: 56918
+- INFO - Closing connection for client port at: 56918
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 56982)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - Parsing finished!!, for the Client port at: 56982
+- INFO - Information propagating to the server:==> ['Holiday'] at port:18432
+- INFO - Successful!, the information propated to server 'Holiday'

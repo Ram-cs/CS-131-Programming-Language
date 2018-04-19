@@ -1,0 +1,92 @@
+This is the text report for the explanation for second and third 
+part of the problems.
+
+Q2.
+======[[RUNNING KENKEN]=====
+Running the 6 * 6 
+statistics.
+Memory               limit         in use            free
+
+   trail  stack      16383 Kb            0 Kb        16383 Kb
+   cstr   stack      16384 Kb            0 Kb        16384 Kb
+   global stack      32767 Kb            2 Kb        32765 Kb
+   local  stack      16383 Kb            0 Kb        16383 Kb
+   atom   table      32768 atoms      1814 atoms     30954 atoms
+
+Times              since start      since last
+
+   user   time       0.058 sec       0.020 sec
+   system time       0.016 sec       0.006 sec
+   cpu    time       0.074 sec       0.026 sec
+   real   time     215.146 sec     142.524 sec
+
+Running 10 * 10
+statistics.
+Memory               limit         in use            free
+
+   trail  stack      16383 Kb            0 Kb        16383 Kb
+   cstr   stack      16384 Kb            0 Kb        16384 Kb
+   global stack      32767 Kb            2 Kb        32765 Kb
+   local  stack      16383 Kb            0 Kb        16383 Kb
+   atom   table      32768 atoms      1812 atoms     30956 atoms
+
+Times              since start      since last
+
+   user   time       0.038 sec       0.038 sec
+   system time       0.010 sec       0.010 sec
+   cpu    time       0.048 sec       0.048 sec
+   real   time      72.622 sec      72.622 sec
+
+
+==========[RUNNING PLAIN_KENKEN]=============
+Running 4 * 4
+ statistics.
+Memory               limit         in use            free
+
+   trail  stack      16383 Kb            0 Kb        16383 Kb
+   cstr   stack      16384 Kb            0 Kb        16384 Kb
+   global stack      32767 Kb            2 Kb        32765 Kb
+   local  stack      16383 Kb            0 Kb        16383 Kb
+   atom   table      32768 atoms      1816 atoms     30952 atoms
+
+Times              since start      since last
+
+   user   time       5.458 sec       5.400 sec
+   system time       0.018 sec       0.002 sec
+   cpu    time       5.476 sec       5.402 sec
+   real   time     310.091 sec      94.945 sec
+I have also included the 10*10 testcase for the regular kenken. From running
+10 and 6, it is found that 10 * 10 girds takes almost same or slightly
+longer and it make sense since it is in greater size and needs more operation
+for the grid.
+
+Comparing between kenken and plain_kenken without the restriction, it is found
+that plain_kenken is taking much more longer than kenken. It is because, I 
+have not used the GNU Prolog finite domain solver and to output the result,
+it enumerates the every possible integer solution though it is simpler than
+regular kenken.
+
+Q3.
+no-op Kenken API
+There is many way we can do this assignment. The easier way i can think of is
+we may gonna have many parameters and let's say 'N", and we also need the size
+of the puzzle, let's say 'C'. Also we definitely need the list of cages as well
+but with no operations on it. Therefore, considering these things in mind, if 
+we only have two constrains items, we are going to have the subtraction and 
+division, otherwise we are also going to require multiplication and additions 
+as well. Thus, for the predicates like non-standard, we will need some standard 
+operations that puzzles can takes like the one we have already described above
+(Addition, subtraction, multiplication, and division).
+
+ noop_kenken_testcase(
+  4,
+  [
+   +(10, [[1|1], [1|2], [2|1]]),
+   *(10, [[1|3], [1|4], [2|2], [2|3], [2|4]]),
+   -(10, [3|1], [3|2]),
+   -(10, [4|1], [4|2]),
+   +(10, [[3|3], [4|3], [4|4]]),
+   *(10, [[3|4]], [])
+  ],
+  T
+).

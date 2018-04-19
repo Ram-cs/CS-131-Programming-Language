@@ -1,0 +1,31 @@
+The is the details about the HW2 and its functions.
+Actually there is only two functions namely convert_grammer and parse_prefix and others 
+are supportive functions that helped to parse the prefix as spec needed.
+1. Convert_grammar:
+	The hw2 is different that hw1 in a sense that it had bunch of grammar rules that
+are in the list. So it was the time where needed to differentiate the terminal and 
+non-terminal to find the solution. So the functions like non_term_t, convert_gramer_support,
+non_term_t are the supporting functions that helped to convert_grammer.
+
+2. Parse_prefix:
+	This functions actually do majority of work in parsing the given statement. To
+implement the function i had to create different helper functions such as support_abc, 
+func_1 and func_2 that are doing order matching, fragmentation and access the next com-
+ponent of the list. To do that i had to make an algorithm which is basically like a tree
+which has different nodes. Algorithm works in such a way that once the node is visited
+it just keeps track of it and don't visit next time and only visit the one that hasn't
+been visited. To match the terminal or non terminal rules and differential those, it will
+check whether its matches and after making sure, it moves to the next and continue. So, 
+it goes entire list and when all nodes are visited, then it returns none. Then at the end
+it combine fragmentation and acceptor.
+Note: again as i have also mentioned in the .ml file, to do parsing, i got help from my
+friend for parse_prfix.
+
+The weakness of  this homework:
+	As i was doing the project, I have spent majority of time figuring out to stop
+infinite loop calls. Because most of time it was in infinite loop. So I tried best to
+create the perfect rules for the parsing however, it's just a naive parsing. Therefore, 
+it has weakness that the different parameter cause cause the rules to go into infinite
+loop. It may be true when given rules are in reverse order. If thats the case then
+expression  just call itself several times and keeps looping and never ends. That cause
+the infinite loop

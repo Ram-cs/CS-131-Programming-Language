@@ -1,0 +1,70 @@
+- INFO - Server 'Goloman', serving on ('127.0.0.1', 18430)
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57854)
+- INFO - Message is Received! asdfasdf
+- INFO - Parsing finished!!, for the Client port at: 57854
+- INFO - Not permitted!!, Invalid command ? asdfasdf
+- INFO - Closing connection for Client port at: 57854
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57856)
+- INFO - Message is Received! IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1asdfasdf
+- INFO - Given command is [IAMAT] Message string
+- INFO - Valid AT message
+- INFO - Not permitted!!, Invalid command ? IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1asdfasdf
+- INFO - Closing connection for Client port at: 57856
+- INFO - Not permitted!!, Invalid command ? IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1asdfasdf
+- INFO - Closing connection for Client port at: 57856
+- INFO - Parsing finished!!, for the Client port at: 57856
+- INFO - Not permitted!!, Invalid command ? IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1asdfasdf
+- INFO - Closing connection for Client port at: 57856
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57876)
+- INFO - Message is Received! IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [IAMAT] Message string
+- INFO - Valid AT message
+- INFO - Updating self and network
+- INFO - Server Answering the Client at port: 57876
+- INFO - Parsing finished!!, for the Client port at: 57876
+- INFO - Information propagating to the server:==> ['Hands'] at port:18431
+- INFO - Successful!, the information propated to server 'Hands'
+- INFO - Information propagating to the server:==> ['Holiday'] at port:18432
+- INFO - Successful!, the information propated to server 'Holiday'
+- INFO - Information propagating to the server:==> ['Wilkes'] at port:18434
+- INFO - Successful!, the information propated to server 'Wilkes'
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57886)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 57886
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57890)
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57894)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 57894
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 57890
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57976)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - Parsing finished!!, for the Client port at: 57976
+- INFO - Information propagating to the server:==> ['Hands'] at port:18431
+- INFO - Successful!, the information propated to server 'Hands'
+- INFO - Information propagating to the server:==> ['Holiday'] at port:18432
+- INFO - Successful!, the information propated to server 'Holiday'
+- INFO - Information propagating to the server:==> ['Wilkes'] at port:18434
+- INFO - Successful!, the information propated to server 'Wilkes'
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57992)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 57992
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 57998)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 57998

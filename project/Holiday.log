@@ -1,0 +1,58 @@
+- INFO - Server 'Holiday', serving on ('127.0.0.1', 18432)
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 37850)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - Parsing finished!!, for the Client port at: 37850
+- INFO - Information propagating to the server:==> ['Welsh'] at port:18433
+- INFO - Successful!, the information propated to server 'Welsh'
+- INFO - Information propagating to the server:==> ['Wilkes'] at port:18434
+- INFO - Successful!, the information propated to server 'Wilkes'
+- INFO - Information propagating to the server:==> ['Goloman'] at port:18430
+- INFO - Successful!, the information propated to server 'Goloman'
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 37866)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 37866
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 37870)
+- INFO - Message is Received! AT Goloman +778352.0707037449 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 37870
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 37924)
+- INFO - Message is Received! WHATSAT kiwi.cs.ucla.edu 10 5
+- INFO - Given command is [WHATSAT] Message string
+- INFO - WHATSAT is valid
+- INFO - Creating Task to request to google with Details 10 +34.068930,-118.445127
+- INFO - Parsing finished!!, for the Client port at: 37924
+- INFO - Google API Connection made for client at port: 37924
+- INFO - Succefull Google API conneciton: 37924
+- INFO - Sending HTTP request to Google:
+- INFO - Reading HTTP request from Google:
+- INFO - Parsing HTTP respose:
+- INFO - Writing Google result to the Client port at: 37924
+- INFO - Closing connection for client port at: 37924
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 37950)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - Parsing finished!!, for the Client port at: 37950
+- INFO - Information propagating to the server:==> ['Welsh'] at port:18433
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 37954)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 37954
+- INFO - Successful!, the information propated to server 'Welsh'
+- INFO - Information propagating to the server:==> ['Wilkes'] at port:18434
+- INFO - Successful!, the information propated to server 'Wilkes'
+- INFO - Information propagating to the server:==> ['Goloman'] at port:18430
+- INFO - Server Connected to the client at: (Address, Port) ==> ('127.0.0.1', 37966)
+- INFO - Message is Received! AT Wilkes +778510.3392784595 kiwi.cs.ucla.ed +34.068930-118.445127 1520023934.918963997
+- INFO - Given command is [AT] Message string
+- INFO - AT message is not flooded_algorithmed
+- INFO - Connection is closed
+- INFO - Parsing finished!!, for the Client port at: 37966
+- INFO - Successful!, the information propated to server 'Goloman'
